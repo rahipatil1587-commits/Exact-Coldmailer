@@ -1,5 +1,5 @@
 import express from "express";
-import  upload  from "../middleware/middleware.js";
+import  upload  from "../Middleware/middleware.js";
 import { uploadFile } from "../controller/file.controller.js";
 import { extractContent } from "../controller/extraction.control.js";
 import {authMiddleware} from "../Middleware/auth.middleware.js"
