@@ -1,5 +1,5 @@
 import express from "express"
-import { generateColdEmails } from "../Services/Mail.service.js";
+import { generateColdEmails } from "../services/Mail.service.js";
 import { authMiddleware } from "../Middleware/auth.middleware.js";
 import { getEmailById,deleteEmail,sendMail,updateEmail } from "../controller/mail.controller.js";
 const router = express.Router();
